@@ -1,6 +1,11 @@
 # Linux drivers index
 This repository contains an overview of the Linux drivers that I wrote:
 
+* **Realtek RTL8169 Ethernet Driver** <br>
+  Driver for RTL8169 PCI Ethernet Card. Supports Gigabit Ethernet. <br>
+  DMA is used for data transfers. Uses MMIO.  <br>
+  Link: [https://github.com/mrutkowski2904/rtl8169-linux-network-driver](https://github.com/mrutkowski2904/rtl8169-linux-network-driver)
+  
 * **Wi-Fi network driver that uses ESP32 C3 module as a network adapter** <br>
   Uses `cfg80211` subsystem for Wi-Fi. Supports sending and receiving network data. <br>
   The following Wi-Fi STA operations are supported: scanning/connecting/disconnecting <br>
